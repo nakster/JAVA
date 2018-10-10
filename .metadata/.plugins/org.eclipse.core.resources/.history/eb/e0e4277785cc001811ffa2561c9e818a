@@ -2,7 +2,7 @@
 public class Runner {
 	public static void main(String[] args) throws Throwable {
 		
-		Abstractcypher c= new AESCypher();
+		Abstractcypher c= new RSACypher();
 		
 		String s = "Happy Days!";
 		

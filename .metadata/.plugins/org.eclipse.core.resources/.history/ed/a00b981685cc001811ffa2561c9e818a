@@ -1,7 +1,7 @@
 import javax.crypto.Cipher;
 import java.security.*;
 
-public abstract class Abstractcypher {
+public class Abstractcypher {
 
 	private Key key;
 	private Cipher cypher;

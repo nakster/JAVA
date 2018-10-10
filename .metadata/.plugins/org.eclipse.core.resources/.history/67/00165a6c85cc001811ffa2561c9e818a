@@ -1,0 +1,15 @@
+import javax.crypto.Cipher;
+import javax.crypto.KeyGenerator;
+
+public class AESCypher extends Abstractcypher{
+
+	public AESCypher() throws Throwable{
+		
+		KeyGenerator keyGen = KeyGenerator.getInstance("AES");
+		keyGen.init(128);
+		super.setKey(keyGen.generateKey(););
+	//	key key = keyGen.generateKey();
+		super.setCypher(Cipher.getInstance("AES/ECB/PKCS5Padding"));
+
+	}
+}
