@@ -1,0 +1,21 @@
+import java.security.KeyPair;
+
+import javax.crypto.Cipher;
+
+public class RSACypher {
+	
+	private KeyPair keyRing;
+	private Cipher cypher;
+	
+	public RSACypher() {
+		
+		
+	}
+
+	@Override
+	protected void finalize() throws Throwable {
+		// TODO Auto-generated method stub
+		super.finalize();
+	}
+	
+}

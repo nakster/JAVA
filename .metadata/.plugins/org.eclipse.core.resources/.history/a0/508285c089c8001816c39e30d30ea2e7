@@ -1,0 +1,6 @@
+
+public class RSACypher {
+	
+	private Cipher cypher;
+	private KeyPair keyRing;
+}

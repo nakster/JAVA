@@ -1,0 +1,10 @@
+
+public class Runner {
+	public static void main(String[] args) throws Throwable {
+		
+		RSACypher c= new RSACypher();
+		
+		String s = "Happy Days!";
+	}
+
+}

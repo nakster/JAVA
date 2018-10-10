@@ -1,0 +1,27 @@
+package ie.gmit.sw;
+import java.security.KeyPair;
+
+import javax.crypto.Cipher;
+
+public class RSACypher {
+	
+	private Cipher cypher;
+	private KeyPair keyRing;
+		
+	
+	
+	public RSACypher() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	@Override
+	protected void finalize() throws Throwable {
+		// TODO Auto-generated method stub
+		super.finalize();
+	}
+	
+	
+}

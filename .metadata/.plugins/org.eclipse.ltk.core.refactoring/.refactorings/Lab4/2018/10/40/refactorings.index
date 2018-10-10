@@ -1,0 +1,4 @@
+1538735487917	Move compilation unit
+1538737275367	Extract superclass 'AbstractSypher'
+1538738514979	Rename type 'AbstractSypher'
+1538739866472	Extract interface 'Cypherator'

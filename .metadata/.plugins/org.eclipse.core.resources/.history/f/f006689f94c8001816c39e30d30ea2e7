@@ -1,0 +1,11 @@
+package ie.gmit.sw;
+
+public class CypheratorFactory {
+	
+	private CypheratorFactory cr = new CypheratorFactory();
+	
+	private CypheratorFactory() {
+		
+	}
+
+}

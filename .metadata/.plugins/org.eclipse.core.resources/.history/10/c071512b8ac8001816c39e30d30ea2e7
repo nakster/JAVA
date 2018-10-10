@@ -1,0 +1,30 @@
+package ie.gmit.sw;
+import java.security.KeyPair;
+
+import javax.crypto.Cipher;
+
+public class RSACypher {
+	
+	private Cipher cypher;
+	private KeyPair keyRing;
+		
+	
+	
+	public RSACypher() {
+		super();
+		KeyPairGenerator keyGen = KeyPairGenerator.getInstance("RSA");
+		keyGen.initialize(2048);
+		keyRing = keyGen.generateKeyPair();
+		cypher = Cipher.getInstance("RSA/ECB/PKCS1Padding");
+	}
+
+
+
+	@Override
+	protected void finalize() throws Throwable {
+		// TODO Auto-generated method stub
+		super.finalize();
+	}
+	
+	
+}

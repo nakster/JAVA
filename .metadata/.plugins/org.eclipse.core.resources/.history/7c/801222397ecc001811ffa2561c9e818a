@@ -1,0 +1,11 @@
+import java.security.KeyPair;
+
+public class RSACypher {
+	
+	public RSACypher() {
+		
+		private KeyPair keyRing;
+		private Cipher cypher;
+	}
+
+}

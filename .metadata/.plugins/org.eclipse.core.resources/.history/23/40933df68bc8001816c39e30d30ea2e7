@@ -1,0 +1,12 @@
+package ie.gmit.sw;
+
+public class TestRunner {
+
+	public static void main(String[] args) {
+		RSACypher cypher = new RSACypher();
+		String s = "Happy Days!";
+		
+		
+		
+
+}

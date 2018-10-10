@@ -1,0 +1,37 @@
+import java.security.KeyPair;
+import java.security.KeyPairGenerator;
+import java.security.NoSuchAlgorithmException;
+
+import javax.crypto.Cipher;
+
+public class RSACypher {
+
+	private KeyPair keyRing;
+	private Cipher cypher;
+
+	public RSACypher() throws Throwable {
+		super();
+		KeyPairGenerator keyGen = KeyPairGenerator.getInstance("RSA");
+		keyGen.initialize(2048);
+		keyRing = keyGen.generateKeyPair();
+		cypher = Cipher.getInstance("RSA/ECB/PKCS1Padding");
+	}
+
+	public byte[] encrypt(byte[] plainText) throws Throwable {
+		
+		cypher.init(Cipher.ENCRYPT_MODE,keyRing.getPublic());
+		return cypher.doFinal(plainText);
+
+	}
+
+	public byte[] decrypt(byte[] cypherText) throws Throwable {
+		return cypherText;
+
+	}
+
+	@Override
+	protected void finalize() throws Throwable {
+		System.out.println(this.getClass().getName() + "about to be GC'D");
+	}
+
+}

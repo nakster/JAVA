@@ -1,0 +1,10 @@
+package ie.gmit.sw;
+
+public class AESCypher extends AbstractCypher{
+	
+	KeyGenerator keyGen = KeyGenerator.getInstance("AES");
+	keyGen.init(128);
+	key key = keyGen.generateKey();
+	Cipher cypher = Cipher.getInstance("AES/ECB/PKCS5Padding");
+
+}
