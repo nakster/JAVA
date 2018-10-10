@@ -1,0 +1,23 @@
+
+public class CypheratorFactory {
+
+	private static CypheratorFactory cf = new CypheratorFactory();
+	
+	private CypheratorFactory() {
+		
+	}
+	
+	public static CypheratorFactory getInstance() {
+		return  cf;
+	}
+	
+	public Cypherator newInstance(CypherAlgo algo) throws Throwable {
+		
+		//return (Cypherator) class.forName(ie.gmit.sw.WeirdCypherIMPL)
+		
+		if() {
+			
+		}
+		return new DESCypher();
+	}
+}

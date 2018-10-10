@@ -17,12 +17,12 @@ public class CypheratorFactory {
 
 		if (algo == CypherAlgo.RSA) {
 			return new RSACypher();
-		} else if (algo == CypherAlgo.DES) {
+		} else if (algo == CypherAlgo.RSA) {
 			return new DESCypher();
-		} else if (algo == CypherAlgo.AES) {
-			return new AESCypher();
+		} else if (algo == CypherAlgo.RSA) {
+			return new DESCypher();
 		} else {
-			return new TripleDES();
+
 		}
 		
 	}

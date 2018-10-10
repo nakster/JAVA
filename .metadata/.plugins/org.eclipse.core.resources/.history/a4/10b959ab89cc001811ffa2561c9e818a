@@ -3,7 +3,7 @@ public class Runner {
 	public static void main(String[] args) throws Throwable {
 		
 		CypheratorFactory cf = CypheratorFactory.getInstance();
-		Cypherator c= cf.newInstance(CypherAlgo.DES);
+		Cypherator c= cf.newInstance(CypherAlgo.AES);
 		
 		String s = "Happy Days!";
 		

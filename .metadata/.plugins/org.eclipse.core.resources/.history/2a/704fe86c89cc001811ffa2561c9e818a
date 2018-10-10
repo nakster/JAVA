@@ -16,14 +16,14 @@ public class CypheratorFactory {
 		// return (Cypherator) class.forName(ie.gmit.sw.WeirdCypherIMPL)
 
 		if (algo == CypherAlgo.RSA) {
-			return new RSACypher();
-		} else if (algo == CypherAlgo.DES) {
-			return new DESCypher();
-		} else if (algo == CypherAlgo.AES) {
-			return new AESCypher();
-		} else {
-			return new TripleDES();
+
+		} else if (algo == CypherAlgo.RSA) {
+
+		} else if (algo == CypherAlgo.RSA) {
+
+		} else if (algo == CypherAlgo.RSA) {
+
 		}
-		
+		return new DESCypher();
 	}
 }

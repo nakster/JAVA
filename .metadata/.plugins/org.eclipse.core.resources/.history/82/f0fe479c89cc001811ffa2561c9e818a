@@ -22,7 +22,7 @@ public class CypheratorFactory {
 		} else if (algo == CypherAlgo.AES) {
 			return new AESCypher();
 		} else {
-			return new TripleDES();
+
 		}
 		
 	}
