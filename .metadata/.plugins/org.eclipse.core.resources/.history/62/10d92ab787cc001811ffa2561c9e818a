@@ -6,8 +6,4 @@ public class CypheratorFactory {
 	private CypheratorFactory() {
 		
 	}
-	
-	public CypheratorFactory getInstance() {
-		return  cf;
-	}
 }
