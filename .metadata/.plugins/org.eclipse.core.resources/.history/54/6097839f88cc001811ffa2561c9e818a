@@ -13,6 +13,7 @@ public class CypheratorFactory {
 	
 	public Cypherator newInstance() throws Throwable {
 		
-		return new DESCypher();
+		return new RSACyper();
+		
 	}
 }

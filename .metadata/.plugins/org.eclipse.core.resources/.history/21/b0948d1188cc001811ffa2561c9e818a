@@ -1,0 +1,13 @@
+
+public class CypheratorFactory {
+
+	private CypheratorFactory cf = new CypheratorFactory();
+	
+	private CypheratorFactory() {
+		
+	}
+	
+	public static CypheratorFactory getInstance() {
+		return  cf;
+	}
+}

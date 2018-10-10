@@ -11,8 +11,7 @@ public class CypheratorFactory {
 		return  cf;
 	}
 	
-	public Cypherator newInstance() throws Throwable {
+	public Cypherator newInstance() throws Thorwable() {
 		
-		return new DESCypher();
 	}
 }

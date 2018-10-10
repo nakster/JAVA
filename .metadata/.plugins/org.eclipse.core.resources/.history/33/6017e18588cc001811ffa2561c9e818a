@@ -10,9 +10,4 @@ public class CypheratorFactory {
 	public static CypheratorFactory getInstance() {
 		return  cf;
 	}
-	
-	public Cypherator newInstance() throws Throwable {
-		
-		return new DESCypher();
-	}
 }

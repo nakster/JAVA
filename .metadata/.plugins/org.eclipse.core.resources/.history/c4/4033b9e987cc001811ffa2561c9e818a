@@ -2,8 +2,7 @@
 public class Runner {
 	public static void main(String[] args) throws Throwable {
 		
-		CypheratorFactory cf = CypheratorFactory.getInstance();
-		Cypherator c= cf.newInstance();
+		Cypherator c= new TripleDES();
 		
 		String s = "Happy Days!";
 		
