@@ -10,7 +10,6 @@ public class Runner {
 		System.out.println(new String(cypherText));
 		
 		System.out.println(new String(c.decrypt(cypherText)));
-		System.out.println();
 	}
 
 }
