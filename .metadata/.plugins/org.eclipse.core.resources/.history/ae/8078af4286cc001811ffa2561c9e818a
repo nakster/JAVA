@@ -2,7 +2,7 @@
 public class Runner {
 	public static void main(String[] args) throws Throwable {
 		
-		Abstractcypher c= new TripleDES();
+		Abstractcypher c= new DESCypher();
 		
 		String s = "Happy Days!";
 		
