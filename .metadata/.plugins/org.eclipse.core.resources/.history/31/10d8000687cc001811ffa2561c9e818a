@@ -1,0 +1,6 @@
+
+public class CypherAlgo {
+	
+	RSA,DES,TripleDES, vigenere, AES;
+
+}
